@@ -1,0 +1,50 @@
+*{
+    margin: 5px;
+}
+::selection{
+    color:rgb(253, 191, 141);
+    background-color: cadetblue;
+}
+#hihi{
+  color:blueviolet;
+  font-size: 60px;
+  font-style: italic;
+  background-color: aqua;
+}
+#hihi:active {
+    background-color:rgba(114, 241, 171, 0.8) ;
+}
+.cc{
+    width: 100%;
+    height:150px;
+    background-color: bisque;
+    border-bottom: 3px;
+    border-color: black;
+    border-style:ridge;
+}
+.jztr{
+    color:rgb(8, 80, 56);
+    font-size: 60px;
+    font-style:unset;
+}
+.haha{
+    color:darkorchid;
+}
+img{
+    width: 294px;
+    height: 294px;
+    image-rendering: optimizeQuality;
+    object-fit: cover;
+    margin-left: 164px;
+    margin-top: 52px;
+}
+button{
+    font-size: 24px;
+    background-color: #90d3d8;
+    border:rgb(255, 87, 241);
+}
+button:active {
+ background-color: rgba(233, 145, 221, 0.596);
+}
+
+
